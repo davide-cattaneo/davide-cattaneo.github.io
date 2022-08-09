@@ -172,7 +172,7 @@ h5 {
     left: 0;
     right: 0;
     text-align: center;
-    font-size: 22rem;
+    font-size: 130px;
     text-transform: capitalize;
     font-family: 'Kristi', cursive; 
     /* bottom: 3vh; */
@@ -598,15 +598,28 @@ strong {
     font-weight: 600;
 }
 
-.cert {
+.cert img {
     position: absolute;
-    bottom: 5%;
-    right: 10%;
+    top: 15%;
+    right: 8%;
+    height: 30vh;
+}
+
+.hero-container hr {
+    background:white;
+    height: 3px;
+    width:90px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 @media (max-width:767px) {
-    .cert {
-        display: none;
+    .cert img {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        height: 25vh;
+        top: 10%;
     }
 
     .nomobile {
@@ -614,8 +627,19 @@ strong {
     }
 
     .hero-container h2 {
-        line-height: 100px;
-        margin-bottom: 3rem;
+        line-height: 80px;
+        margin-bottom: 1rem;
+        font-size:100px;
+        letter-spacing: normal;
+        -webkit-text-stroke-width:unset;
+        -webkit-text-stroke-color: unset;
+        color: #F3C900;
+        margin-top: 4rem;
+    }
+
+    .hero-container hr {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
     }
 
     section {

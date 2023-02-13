@@ -613,6 +613,63 @@ strong {
     margin-bottom: 2rem;
 }
 
+.popup {
+    position: absolute;
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.popup-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.popup-box {
+    background: white;
+    border-radius: 5px;
+    width: 1024px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.ics {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.ics button {
+    padding: 5px 12px;
+    background: transparent;
+    color: #292D32;
+    border: 3px solid #292D32;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.ics button:hover {
+    background: #F3C900;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    cursor: pointer;
+}
+
 @media (max-width:767px) {
     .cert img {
         left: 0;
@@ -620,6 +677,11 @@ strong {
         margin: 0 auto;
         height: 25vh;
         top: 10%;
+    }
+
+    .popup {
+        width: 0;
+        height: 0;
     }
 
     .nomobile {
@@ -708,6 +770,7 @@ strong {
     .white-container {
         height: fit-content;
         flex-direction: column;
+        position: relative;
     }
 
     .white {

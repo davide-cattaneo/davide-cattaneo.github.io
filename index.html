@@ -161,7 +161,7 @@
             <div class="white">
                 <div class="white-container">
                     <div class="white-item">
-                        <div class="white-cover" style="margin-top:-15vh;">
+                        <div class="white-cover">
                             <img src="./media/global.svg" alt="" style="width:50px">
                             <h3>report web analytics</h3>
                             <hr>
@@ -196,11 +196,11 @@
                                 indicatori personalizzati che ti permetteranno di capire 
                                 i punti di forza e quelli di debolezza della tua azienda
                                 </p>
-                            <a href="" style="margin-top:1.5rem;">🡢 vai alla demo</a>
+                            <a style="margin-top:1.5rem;" onclick="document.getElementById('popup').style.display = 'block';">🡢 vai alla demo</a>
                         </div>
                     </div>
                     <div class="white-item">
-                        <div class="white-cover" style="margin-bottom:-15vh;">
+                        <div class="white-cover" >
                             <img src="./media/discover.svg" alt="" style="width:50px">
                             <h3>cerchi qualcosa di diverso?</h3>
                             <hr>
@@ -214,6 +214,16 @@
                             <a href="" style="margin-top:1.5rem;">🡢 contattami</a>
                         </div>
                     </div>
+                    <div class="popup" id="popup">
+                        <div class="popup-container">
+                            <div class="ics">
+                                <button onclick="document.getElementById('popup').style.display = 'none';">X</button>
+                            </div>
+                            <div class="popup-box">
+                                <iframe title="Demo vendite" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiNGYzODFmMzEtYzdjYi00NDI0LWI0NDYtZjRmYjBmNTM1ZjI0IiwidCI6ImQyOTBlNjIyLWU4ODQtNGIzZi04NzFmLWNjMmZkMjE2MmY2NiIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -224,6 +234,7 @@
                     </div>
                     <div class="info-row">
                         <h2>about</h2>
+                        <p><a href="https://www.linkedin.com/in/davide-cattaneo-83a33361/">Il mio LinkedIn</a></p>
                         <p><a href="./media/Cattaneo Davide CV.pdf">Scarica il mio cv aggiornato</a></p>
                         <p><a href="https://02sec.com">Cos'altro faccio</a></p>
                     </div>
